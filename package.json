@@ -4,16 +4,21 @@
   "main": "index.js",
   "scripts": {
     "test": "vitest run",
-    "build": "tsc"
+    "build": "tsc",
+    "lint": "eslint ."
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^22.20.2",
+    "eslint": "^10.10.0",
     "tsx": "^4.23.13",
-    "typescript": "^7.0.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.70.0",
     "vitest": "^4.1.11"
   }
 }
